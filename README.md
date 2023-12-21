@@ -1,4 +1,4 @@
-# Coffe Hub
+# Coffee Hub
 
 The best site to buy yourself a coffee (Vanila, Latte , cauppuccino , Charamel,etc..) Get yourself a cup of coffee and enjoy it!, Thank you!
 
