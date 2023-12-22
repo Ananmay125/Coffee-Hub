@@ -70,10 +70,11 @@ p {
     font-family: 'Caveat', cursive;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .menu-text{
-    padding-left: 30px;
+    padding-left: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     color: white;
@@ -168,7 +169,9 @@ p {
 
 .latte-image2{
     width: 350px;
-    margin-left: 0px;
+    margin-left: 50px;
+    padding-top: 20px;
+    border-radius: 9000px;
 }
 
 .Recommended{
@@ -184,6 +187,14 @@ p {
     margin-bottom: 0px;
 }
 
+.mocha-image2{
+    width: 250px;
+    position: relative;
+    top: 11px;
+    margin-left: 90px;
+    border-radius: 900px;
+}
+
 .mocha-text2{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +207,154 @@ p {
 }
 
 .Recommended-container{
-    padding-top: 40px;
+    padding-top: 25px;
+}
+
+.link-image{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-style: none;
+    padding: 0px;
+}
+
+.cap-image2{
+    margin-left: 80px;
+    margin-top: 80px;
+    border-radius: 900px;
+    border: 3px solid limegreen;
+    width: 550px;
+    float: left;
+}
+
+.frappe-image2{
+    width: 250px;
+    margin-left: 70px;
+    border-radius: 900px;
+}
+
+.frappe-text2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding-left: 455px;
+    position: relative;
+    bottom: 75px;
+    padding-top: 0px;
+    margin-top: 8px;
+}
+
+.latte-text2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding-left: 125px;
+    position: relative;
+    bottom: 0px;
+    padding-top: 0px;
+    margin-top: 8px;
+}
+
+table,tr,th,td{
+    margin-top: 80px;
+    margin-left: 740px;
+    width: 900px;
+    height: fit-content;
+    color: white;
+    font-size: 30px;
+    border: 3px double crimson;
+}
+
+td{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: whitesmoke;
+    }
+
+    nav{
+        background-color: bisque;
+        border-color: black;
+    }
+
+    a{
+        color: black;
+    }
+
+    .main-heading{
+        color: black;
+    }
+
+    h1,h2,p{
+        color: black;
+    }
+
+    h3.mocha-text2,h3.latte-text2,h3.frappe-text2{
+        color: black;
+    }
+
+    .hero-container{
+        width: fit-content;
+    }
+
+    .hero-image{
+        width: 768px;
+        height: 480px;
+    }
+
+    .Recommended{
+        color: black;
+        text-align: center;
+        font-size: 33px;
+    }
+
+    .cap-image2{
+        width: 30px;
+    }
+
+    .latte-image2{
+        width: 350px;
+        height: auto;
+        margin-left: 220px;
+    }
+
+    .latte-text2{
+        position: relative;
+        bottom: 875px;
+        left: 170px;
+    }
+
+    .frappe-image2{
+        width: 350px;
+        height: auto;
+        margin-top: 70px;
+        margin-left: 220px;
+    }
+
+    .frappe-text2{
+        position: relative;
+        bottom: 535px;
+        right: 200px;
+    }
+
+    .mocha-image2{
+        width: 350px;
+        height: auto;
+        margin-top: 70px;
+        margin-left: 220px;
+    }
+
+    .mocha-text2{
+        position: relative;
+        bottom: 135px;
+        right: 545px;
+    }
+
+    p{
+        font-size: 40px;
+    }
 }
