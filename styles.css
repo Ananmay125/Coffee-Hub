@@ -94,8 +94,9 @@ a {
 }
 
 .main-heading {
-    color: White;
+    color: beige;
     font-style: oblique;
+    font-family: 'Trebuchet MS',Arial, sans-serif;
     font-weight: 400;
     margin-top: 30px;
     margin-right: 0px;
