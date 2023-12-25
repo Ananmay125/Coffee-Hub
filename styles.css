@@ -98,7 +98,7 @@ a {
     font-style: oblique;
     font-weight: 400;
     margin-top: 30px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .menu-text {
@@ -508,6 +508,14 @@ p{
 
     .mocha-image2{
         width: 280px;
+    }
+
+    .main-heading{
+        padding-left: 10px;
+    }
+
+    nav{
+        border: none;
     }
 }
 
