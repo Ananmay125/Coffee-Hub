@@ -1,30 +1,28 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-color: #292929;
     overflow-x: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 .body-2{
     height: 100%;
-    background-color: #99201c;
-    background-image: linear-gradient(316deg, #99201c 0%, #f56545 74%);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #292929;
     margin: 0;
     overflow-x: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0px;
     margin: 0px;
     border: 0px;
+    width: 100%;
 }
-
-main {
-    background-color: #99201c;
-    background-image: linear-gradient(316deg, #99201c 0%, #f56545 74%);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .favicon{
     padding: 0px;
     margin: 0px;
@@ -32,10 +30,10 @@ main {
 }
 
 nav {
-    background-image: linear-gradient(to left, #10162F,#10162F);
+    background-color:#e1f1fd;
     width: 100%;
     height: 85px;
-    border: 3px dotted white;
+    border: 5px dotted black;
 }
 
 .center-div-nav {
@@ -52,7 +50,7 @@ nav {
 a {
     text-decoration: none;
     border: none;
-    color: whitesmoke;
+    color: black;
     font-family: 'Poppins', sans-serif;
     margin-right: 5px;
     padding-top: 9px;
@@ -89,23 +87,26 @@ a {
 }
 
 .main-heading {
-    color: beige;
+    color: Black;
     font-style: oblique;
-    font-family: 'Trebuchet MS',Arial, sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     margin-top: 30px;
     margin-right: 0px;
 }
 
 .menu-text{
-    color: white;
+    color: black;
     font-size: 50px;
     font-family: 'Afacad', sans-serif;
     text-align: center;
-    border: 10px groove orange;
-    background-image: #292929;
+    background-color: #15b1c2;
     text-align: center;
     margin: 20px 0;
+}
+
+.whole-catalog {
+    background-color:#322E2E;
 }
 
 .latte-image{
@@ -143,7 +144,7 @@ a {
     text-align: center;
     position: relative;
     right: 375px;
-    bottom: 220px;
+    bottom: 110px;
 }
 
 .latte-text2 {
@@ -171,7 +172,7 @@ a {
     font-size: 35px;
     text-align: center;
     position: relative;
-    bottom: 200px;
+    bottom: 110px;
     left: 8px;
 }
 
@@ -199,7 +200,7 @@ a {
     text-align: center;
     position: relative;
     left: 395px;
-    bottom: 395px;
+    bottom: 300px;
 }
 
 .cap-text2 {
@@ -278,19 +279,12 @@ a {
     padding-bottom: 0px;
 }
 
-.whole-catalog{
-    background-color: #292929;
-    border-radius: 40px;
-    border: 5px solid yellow;
-}
-
 .Recommended {
-    color: white;
+    color: black;
     font-size: 50px;
     font-family: 'Afacad', sans-serif;
     text-align: center;
-    border: 10px groove orange;
-    background-image: #292929;
+    background-color: #e1f1fd;
     padding-top: 0px;
 }
 
@@ -379,14 +373,14 @@ p{
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
+    margin: 0px;
+    width: 100%;
 }
 
 .hero-image{
     height: 100%;
     width: 100%;
     object-fit: contain;
-    border-top: 10px groove yellow;
-    border-bottom: 10px groove yellow;
     z-index: 1;
     float: left;
 }
@@ -461,6 +455,7 @@ p{
     .latte-image2{
         margin-top: 10px;
         width: 450px;
+        height: 400px;
         padding: 0px;
         border: 0px;
     }
@@ -492,6 +487,7 @@ p{
 
     .latte-image2{
         width: 450px;
+        height: 322.625px;
         margin-left: 0px;
     }
 
@@ -556,17 +552,17 @@ p{
     }
 
     .latte-text{
-        bottom: 1020px;
+        bottom: 920px;
         left: 0px;
     }
 
     .frappe-text{
-        bottom: 640px;
+        bottom: 540px;
         left: 5px;
     }
 
     .cap-text{
-        bottom: 380px;
+        bottom: 280px;
         left: 0px;
     } 
 
@@ -616,9 +612,6 @@ p{
 }
 
 @media screen and (max-width: 740px) {
-    nav{
-        background-image: linear-gradient(to left, #10162F,#10162F);
-    }
 
     .quote-container{
         padding-top: 0px;
@@ -693,11 +686,11 @@ p{
     }
 
     .latte-text{
-        bottom: 900px;
+        bottom: 810px;
     }
 
     .frappe-text{
-        bottom: 600px;
+        bottom: 500px;
         font-size: 30px;
     }
 
@@ -717,6 +710,14 @@ p{
 
     .mocha-image2{
         width: 250px;
+    }
+
+    .latte-text{
+        bottom: 810px;
+    }
+
+    .frappe-text{
+        bottom: 500px;
     }
 }
 
