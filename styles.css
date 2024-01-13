@@ -122,11 +122,16 @@ a {
     margin: 20px 0;
 }
 
+.div-latte-image-page{
+    display: flex;
+    justify-content: center;
+}
+
 .latte-image3 {
     width: 300px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
     border-radius: 900px;
 }
 
@@ -650,16 +655,17 @@ p{
 @media screen and (max-width: 500px) {
     .latte-image2{
         width: 280px;
+        height: fit-content;
     }
 
     .frappe-image2{
         width: 280px;
-        height: 200.750px;
+        height: fit-content;
     }
 
     .mocha-image2{
         width: 280px;
-        height: 200.750px;
+        height: fit-content;
     }
 
     .main-heading{
@@ -697,19 +703,32 @@ p{
     .menu-text{
         font-size: 30px;
     }
+
+    .top-nav-a-1{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .top-nav-a-2{
+        padding-left: 0px;
+        padding-right: 15px;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .latte-image2{
-        width: 250px;
+        width: 210px;
+        height: fit-content;
     }
 
     .frappe-image2{
-        width: 250px;
+        width: 210px;
+        height: fit-content;
     }
 
     .mocha-image2{
-        width: 250px;
+        width: 210px;
+        height: fit-content;
     }
 
     .latte-text{
